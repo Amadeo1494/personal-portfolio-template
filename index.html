@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Portfolio Template</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./style.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/6d2dacdd6e.js" crossorigin="anonymous"></script>
+        <script src="./script.js" async></script>
+    </head>
+
+    <body class="dark theme || light theme">
+        
+        <!--HEADER-->
+        <header>
+            <!--Logo-->
+            <div class="logo">
+            </div>
+            <!--Hamburger Button-->
+            <button class="nav--toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <!--Light/Dark Mode Button-->
+            <!-- <button class="theme-btn"></button> -->
+            <!--Navigation-->
+            <nav class="nav">
+                <ul class="nav--list">
+                    <li class="nav--item"><a href="#home" class="nav--link">Home</a></li>
+                    <li class="nav--item"><a href="#services" class="nav--link">Resumé</a></li>
+                    <li class="nav--item"><a href="#about" class="nav--link">About Me</a></li>
+                    <li class="nav--item"><a href="#work" class="nav--link">Portfolio</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--INTRO-->
+        <section class="intro" id="home">
+            <!--Greetings-->
+            <h2 class="intro--title">
+                Hey, I'm <strong>*Your Name*</strong>
+            </h2>
+            <!--Proffesion Paragraph-->
+            <h2 class="intro--subtitle">
+                Software Developer
+            </h2>
+            <!--Profile Pic-->
+            <img src="Images/pexels-mohamed-abdelghaffar-771742.jpg" alt="profile pic" class="intro--img">
+        </section>
+
+        <!--RESUME-->
+        <section class="resume" id="services">
+            <!--Section Title-->
+            <h2 class="resume--title">Resumé</h2>
+            <!--Column Section-->
+            <div class="services">
+                <!--Column1-->
+                <div class="service">
+                     <h3 id="service-1">Desing</h3>
+                     <p>
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                     </p>
+                </div>
+                <!--Column2-->
+                <div class="service">
+                    <h3 id="service-1">Development</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+               </div>
+               <!--Column3-->
+               <div class="service">
+                    <h3 id="service-2">Data Science</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </div>
+            <a href="#work" class="btn">My Projects</a>
+        </section>
+
+        <!--ABOUT ME-->
+        <section class="about-me" id="about">
+            <!--About Me Title-->
+            <h2 class="about-me--title">About</h2>
+            <p class="about-me--subtitle"> Software Developer Based in Lorem, Ipsum</p>
+            <!--About Me Div-->
+            <div class="about-me--body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            </div>
+            <!--About Me Pic-->
+            <img src="Images/pexels-pixabay-220453.jpg" alt="profile pic 2" class="about-me--img">
+        </section>
+
+        <!--PORTFOLIO-->
+        <section class="portfolio" id="work">
+            <!--Portfolio Intro-->
+            <h2 class="portfolio--title">Portfolio</h2>
+            <p class="portfolio--subtitle">My Work & Projects</p>
+            <!--Portfolio Pics-->
+            <div class="portfolio--items">
+                <!--Pic1-->
+                <a href="#" class="portfolio--item">
+                     <img src="Images/Portfolio Images/wes-hicks-MEL-jJnm7RQ-unsplash.jpg" alt="Project #1" class="portfolio--img">
+                </a>
+                <!--Pic2-->
+                <a href="#" class="portfolio--item">
+                    <img src="Images/Portfolio Images/qui-nguyen-S6atLH5Rf0U-unsplash.jpg" alt="Project #2" class="portfolio--img">
+                </a>
+                <!--Pic3-->
+                <a href="#" class="portfolio--item">
+                    <img src="Images/Portfolio Images/hannah-morgan-ycVFts5Ma4s-unsplash.jpg" alt="Project #3" class="portfolio--img">
+                </a>
+                <!--Pic4-->
+                <a href="#" class="portfolio--item">
+                   <img src="Images/Portfolio Images/jilbert-ebrahimi-QGehbt2b6iQ-unsplash.jpg" alt="Project #4" class="portfolio--img">
+                </a>
+            </div>
+        </section>
+
+        <!--FOOTER-->
+        <footer class="footer">
+            <a href="personal.portfolio@gmail.com" class="footer--link">personal.portfolio@gmail.com</a>
+            <h5>Follow me on Social Media!</h5>
+            <ul class="social-list">
+                <li class="social-list--item">
+                    <a class="social-list__link" href="https://www.facebook.com/">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </li>
+                <li class="social-list--item">
+                    <a class="social-list__link" href="https://twitter.com/">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </li>
+                <li class="social-list--item">
+                    <a class="social-list__link" href="https://uk.linkedin.com/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list--item">
+                    <a class="social-list__link" href="https://github.com/">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>
